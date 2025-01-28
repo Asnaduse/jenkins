@@ -1,0 +1,10 @@
+wsl --install
+wsl --list --verbose// check default version
+wsl //start
+wsl -d Ubuntu
+
+wsl -d Ubuntu -u asnath
+sudo apt update
+sudo apt update && sudo apt upgrade -y
+cd /mnt/c/Users/YourWindowsUsername/Documents
+sudo root
